@@ -5,7 +5,8 @@ LightBnB is a database application project developed as part of the course requi
 [LightBnB_WebApp](https://github.com/Emeka-asogwa/LightBnB/tree/master/LightBnB_WebApp) contains all the files for this project. You can find the database queries performing the App functionalities at `LightBnB_WebApp/server/database.js`. 
 
 ![Project gif](https://github.com/Emeka-asogwa/LightBnB/blob/master/docs/queryWeb.gif)
-Project ERD
+
+## Project ERD
 ![ERD](https://github.com/Emeka-asogwa/LightBnB/blob/master/docs/ERD.png)
 
 ## Project Structure
@@ -51,7 +52,7 @@ Project ERD
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
 
   ## Sample Queries
-  ### most_visited_cities.sql
+  ### [most_visited_cities.sql](https://github.com/Emeka-asogwa/LightBnB/blob/master/queries/most_visited_cities.sql)
 
   Shows the most visited cities based on their total reservations.
 
@@ -81,7 +82,7 @@ Project ERD
 
 
 
-## average_duration.sql
+## [average_duration.sql](https://github.com/Emeka-asogwa/LightBnB/blob/master/queries/average_duration.sql)
 This selects the average duration of all reservations. 
 
 
@@ -92,6 +93,7 @@ This selects the average duration of all reservations.
 (1 row)
 ```
 
+## [Select user by email](https://github.com/Emeka-asogwa/LightBnB/blob/master/queries/0_query_for_user.sql)
 You can **SELECT** id, name, email and password of a given user from the database, for example user with email:*'tristanjacobs@gmail.com'*, and hashed password:*'password'*.
 
 ```
